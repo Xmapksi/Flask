@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Index</title>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:600'><link rel="stylesheet" href="/static/style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="login-wrap">
+	<div class="login-html">
+<!-- 		<input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Sign In</label> -->
+		<div class="login-form">
+			
+			<div class="sign-up-htm">
+				<form action="/dhcpdconf" method="POST">
+					<div class="group">
+						<label for="user" class="label">Subnet</label>
+						<input id="user" type="text"  name = "subnet" class="input">
+					</div>
+					<div class="group">
+						<label for="pass" class="label">NetMask</label>
+						<input id="pass" type="text"  name = "netmask" class="input" >
+					</div>
+					<div class="group">
+						<label for="pass" class="label">Option-Routers</label>
+						<input id="pass" type="text" name = "routers" class="input">
+					</div>
+					<!-- <div class="group">
+						<label for="pass" class="label">Gateway</label>
+						<input id="pass" type="text"  name = "gateway" class="input" >
+					</div> -->
+					<div class="group">
+						<label for="pass" class="label">DNS-Server</label>
+						<input id="pass" type="text"  name = "dns" class="input">
+					</div>
+					<div class="group">
+						<label for="pass" class="label">Option Broadcast</label>
+						<input id="pass" type="text" name = "broadcast" class="input">
+					</div>
+					<div class="group">
+						<label for="pass" class="label">Start-IP</label>
+						<input id="pass" type="text" name = "start" class="input">
+					</div>
+					<div class="group">
+						<label for="pass" class="label">End-IP</label>
+						<input id="pass" type="text" name = "end" class="input">
+					</div>
+					<div class="group">
+						<input type="submit" class="button" value="SEND">
+					</div>
+						<div class="hr"></div>
+						
+				</form>
+			</div> 
+
+		</div>
+	
+	</div>
+</div>
+<!-- partial -->
+  
+</body>
+</html>
